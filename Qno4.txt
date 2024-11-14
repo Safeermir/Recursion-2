@@ -1,0 +1,15 @@
+fun(int n) {  
+if (n <= 1) return 1;  
+if (n % 2 == 0) return fun(n / 2); 
+ return fun(n / 2) + fun(n / 2 + 1); 
+  } 
+
+for n=1 output will be 1
+for n=2 output will be 1
+for n=3 output will be 2
+for n=4 output will be 1
+for n=5 output will be 3
+for n=7 output will be 3
+for n=9 output will be 4
+for n=8 output will be 1
+ I tried for these inputs this comes the output
